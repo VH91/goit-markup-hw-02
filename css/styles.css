@@ -4,7 +4,6 @@
   --accent-color: #2196f3;
   --white-color: #ffffff;
 }
-
 .page {
   background: #ffffff;
   font-family: Roboto, sans-serif;
@@ -24,9 +23,6 @@ button {
   font-style: normal;
 }
 /* Навигация сайта */
-.site-nav {
-  color: var(--primery-text-color);
-}
 .site-nav .link {
   color: var(--primery-text-color);
   font-weight: 500;
@@ -35,7 +31,8 @@ button {
   letter-spacing: 0.02em;
 }
 .site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav .link:focus,
+.site-nav .current {
   color: var(--accent-color);
 }
 
@@ -110,6 +107,7 @@ button {
   background-color: #2196f3;
   cursor: pointer;
   border-radius: 4px;
+  border: 0;
 }
 .hero .hero-button:hover,
 .hero .hero-button:focus {
